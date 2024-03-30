@@ -11,6 +11,10 @@ class verifyLoginPage extends Page {
     get pin () {
         return $('input[data-qa-id="input-pin"]');
     }
+
+    get welcomeMessage () {
+        return $('h5=Verify your account');
+    }
     /**
      * a method to encapsule automation code to interact with the page
      * e.g. to login using username and password
